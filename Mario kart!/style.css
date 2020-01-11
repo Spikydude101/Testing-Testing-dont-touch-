@@ -1,0 +1,38 @@
+html {
+    background-color:royalblue
+}
+
+body {
+    color:rgb(128, 240, 175);
+    margin:0 auto;
+    width:600px;
+    text-align:center;
+    font-size:20px;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+
+#random {
+    width:300px;
+    border:5px dashed rgb(128, 240, 175);
+}
+
+img {
+    width:50px;
+}
+
+#generate , #nTime  {
+    border:5px dashed rgb(128, 240, 175);
+    font-size:20px;
+    padding:15px;
+    background-color:rebeccapurple;
+    color:aqua;
+
+
+
+
+
+
+
+}
+

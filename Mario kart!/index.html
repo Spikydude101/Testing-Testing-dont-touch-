@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mario kart rules!</title>
+        <link rel = 'stylesheet' type = 'text/css' href = 'style.css'>
+        <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Time to get items!</h1>
+        <p>We all love it,it's mario kart.Want to take your chances with a item box?</p>
+        <p>Well,this specific box will simulate random items once you enter a racer position and you click the generate items button for you to get revenge on people who keep throwing banana's all over the place,enjoy!</p>
+        <br>
+        <p>Racer position:<input id = 'racer' type = 'number'></p>
+        <p>Number of times to run simulation:<input id = 'n' type = 'number'></p>
+        <br>
+        <br>
+        <img id = 'random' src = 'images/item-box.png'>
+        <p>
+            <strong>Totals </strong>
+            Green shells:<span id = 'shells'>0</span>
+            Bananas: <span id = 'bananas'>0</span>
+            Stars: <span id = 'stars'>0</span>
+            Golden Mushroom: <span id = 'golden'>0</span>
+            Bullet bills:<span id = 'bill'>0</span>
+        </p>
+        <p><button id = 'generate'>Generate items!</button><button id = 'nTime'>run!</button></p>
+        <br>
+        <p id = 'results' ></p>
+
+        
+        <script src = 'main.js'></script>
+    </body>
+</html>
